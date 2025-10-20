@@ -8,13 +8,12 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- * Title Section -->
-  <h3 align="center">AD - CI4 Template</h3>
+  <h3 align="center">Bingsu's Coffee Shop</h3>
 </div>
 
 <!-- * Description Section -->
 <div align="center">
-This repository is a beginner-friendly CodeIgniter 4 template.  
-It helps teams quickly bootstrap backend + frontend projects, with simple sample modules that show how to extend the system.
+Welcome to Bingsu's Coffee Shop. c:
 </div>
 
 <br/>
@@ -55,12 +54,11 @@ It helps teams quickly bootstrap backend + frontend projects, with simple sample
 
 ## Overview
 
-This template provides a **minimal CodeIgniter 4 project layout** with conventions for file organization, commit practices, and simple modules.
+Cafe Aroma is a modern and cozy coffee shop website built using Codeigniter 4 and Tailwind CSS
 
-It is designed to be **easy to start with** and a **reference for adding new features**.
+This project features a stylish landing page with sections for the menu, mood board, road map, and simple sign-in/sign-up forms.
 
-* **Purpose**: a clean starting point for CI4 apps.
-* **Audience**: developers who want a predictable structure and quick onboarding.
+It aims to provide a warm, elegant online experience that mirrors the Cafe's real-life atmosphere
 
 ### Key Components
 
@@ -70,8 +68,11 @@ These are **sample modules** included (or suggested) for learning how to add fea
 | ------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
 | **Auth (Sample)**         | Basic login/logout and role check (admin/user).                     | Uses CI4 sessions + MySQL `users` table.                |
 | **CRUD Module**           | Example entity (`Posts` or `Tasks`) with create/read/update/delete. | Demonstrates Controller → Service → Repository pattern. |
-| **Scheduler (Sample)**    | Simple to-do list with due dates.                                   | Shows how to extend with new tables and services.       |
-
+| **Scheduler (Sample)**    |   Simpe to-do or scedule tracker with due dates.                    | Shows how to extend CodeIgniter with time-based feature. |
+| **Mood Board Page**       | Displays color palette, typography, and sample UI elements.          | Enhances design reference and theme consistency.        |
+| **Road Map Page**         | Lists planned features, milestones, and project progress.           | Helps track development direction.                      |
+| **Sign In / Sign Up Pages** | Provides basic authentication interface for users.                | Can be expanded for database integration.               |
+| **Landing Page**          | Main entry point showing the cafe's introduction and menu highlights. | Uses Tailwind CSS and responsive design principles.   |
  <!-- ! Start simple. Use these modules as **learning samples**; extend or replace them based on your project’s needs. -->
 
 ### Technology
@@ -90,10 +91,7 @@ These are **sample modules** included (or suggested) for learning how to add fea
 
 #### Databases
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+Hehe~ Nada c:
 
 <!-- ! Keep only the used technology -->
 
