@@ -8,7 +8,21 @@
     <div class="bg-white shadow-lg p-8 border border-[#f0e6dc] rounded-2xl w-full max-w-md">
         <h2 class="mb-6 font-bold text-[#4b2e05] text-3xl text-center">☕ Sign In to Café Aroma</h2>
 
-        <form action="<?= base_url('login') ?>" method="POST" class="space-y-5">
+        <!-- Success Message -->
+        <?php if (session()->getFlashdata('success')): ?>
+            <div class="bg-green-100 mb-4 p-3 rounded text-green-700">
+                <?= session()->getFlashdata('success') ?>
+            </div>
+        <?php endif; ?>
+
+        <!-- Error Message -->
+        <?php if (session()->getFlashdata('error')): ?>
+            <div class="bg-red-100 mb-4 p-3 rounded text-red-700">
+                <?= session()->getFlashdata('error') ?>
+            </div>
+        <?php endif; ?>
+
+        <form action="<?= base_url('signin') ?>" method="POST" class="space-y-5">
             <!-- Email -->
             <div>
                 <label for="email" class="block mb-1 font-medium text-gray-700 text-sm">Email Address</label>
